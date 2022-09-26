@@ -6,16 +6,7 @@ import moment from 'moment-timezone'
 
 /*Oᴡɴᴇʀ number*/
 global.owner = [
-  ['6285380166282', '️One', true],
-  ['6285380166282', '️Two', true],
-  ['6285380166282', '️Three', true],
-  ['6285380166282', '️Four', true],
-  ['6285380166282', '️Five', true],
-  ['6285380166282', '️Six', true],
-  ['6285380166282', '️Seven', true],
-  ['6285380166282', '️Eight', true],
-  ['6285380166282', '️Nine', true],
-  ['6285380166282', '️Teen', true]
+  ['6287889347327', '️caesmon', true]
 ]
 global.mods = []
 global.prems = []
@@ -84,15 +75,15 @@ global.xckey = '7iyNa0qA'
 */
 
 /*Number*/
-global.nomorbot = '6285295374964'
-global.nomorown = '6285380166282'
-global.namebot = 'Mexxy Botz 🔥'
+global.nomorbot = '6285842505458'
+global.nomorown = '6287889347327'
+global.namebot = 'Vannesa'
 global.nameown = '「 Oᴡɴᴇʀ 」'
 
 /*Watermark*/
-global.wm = '                「 Mexxy Botz 🔥  」'
+global.wm = '                「 Vannesa あ⁩ 」'
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ Mexxy Botz 🔥'
+global.wm3 = '⫹⫺ Vannesa'
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}`
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
@@ -387,13 +378,13 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg']
 
 /*Link*/
-global.sig = 'https://www.instagram.com/maxxy_ofc'
-global.sgh = 'https://www.github.com/kahfi-XD'
-global.sgc = 'https://chat.whatsapp.com/K6femuL8bLx6HqWS7wXofI'
-global.sdc = 'https://www.discord.com/kahgiaja'
-global.snh = 'https://www.tiktok.com/@maxxy_0t'
-global.sfb = 'https://www.facebook.com/kahfiofc'
-global.syt = 'https://youtube.com/channel/UC6GPl9xMWL61NAXQb3HBrRw'
+global.sig = 'https://www.instagram.com/esacsr'
+global.sgh = 'https://www.github.com/DreamLikeAmonster'
+global.sgc = 'https://chat.whatsapp.com/BWjq9kTxhDcAFgtCIrfP6N'
+global.sdc = 'https://www.discord.com/yukoo#2656'
+global.snh = 'https://www.tiktok.com/@caes891'
+global.sfb = '-'
+global.syt = '-'
 
 /*Nsfw*/
 global.optsnsfw = true
@@ -434,32 +425,32 @@ global.htjava = '⫹⫺'
 
 /*Watermark*/
 global.stickpack = '.'
-global.stickauth = `☂︎ 𝑴𝒂𝒂𝒙𝒚 𝑩𝒐𝒕𝒛 乂 𝙆𝘼𝙃𝙁𝙄-𝙓𝘿\n⫹⫺ 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩\nwa.me/${global.nomorbot}`
+global.stickauth = `☂︎ Vanessa\n⫹⫺ 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩\nwa.me/${global.nomorbot}`
 global.packname = '☂︎ ᴄʀᴇᴀᴛᴇᴅ ʙʏ'
-global.author = '𝑴𝒂𝒂𝒙𝒚 𝑩𝒐𝒕𝒛 乂 𝙆𝘼𝙃𝙁𝙄-𝙓𝘿'
+global.author = '©Vanessa'
 global.multiplier = 10
 
 /*Pesan*/
 global.eror = '*ᴇʀᴏʀʀ!*'
 global.wait = '*ᴡᴀɪᴛ!*'
 global.render = '*ʀᴇɴᴅᴇʀ!*'
-global.webs = 'https://s.id/Cerdasin62'
-global.logo = 'https://i.pinimg.com/564x/f7/d2/e4/f7d2e48fd59a8c01cd396bfc70b0a2d1.jpg'
-global.gcwangsaf = 'https://chat.whatsapp.com/K6femuL8bLx6HqWS7wXofI'
+global.webs = 'https://s.id/1iYtC'
+global.logo = 'https://telegra.ph/file/b8a587758680c3fe0d239.jpg'
+global.gcwangsaf = 'https://chat.whatsapp.com/BWjq9kTxhDcAFgtCIrfP6N'
 
 /*Donasi*/
-global.saweria = 'https://saweria.co/MaxxyBotz'
-global.dana = '085380166282'
-global.pulsa = '085295374964'
+global.saweria = ''
+global.dana = '087889347327'
+global.pulsa = '087889347327'
 global.trakteer = ''
 global.paypal = ''
 global.gopay = ''
 global.pdana = '085380166282'
 global.povo = ''
 global.pgopay = ''
-global.ppulsa = '085295374964'
-global.ppulsa2 = '085380166282'
-global.psaweria = 'https://saweria.com/MaxxyBotz'
+global.ppulsa = '087889347327'
+global.ppulsa2 = '085842505458'
+global.psaweria = '-'
 
 /*Emoji*/
 global.rpg = {
