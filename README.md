@@ -1,2 +1,2 @@
-
-Jangan lupa kasih star 
+Author: AyGemuy
+Recode: Kahfi-XD 
