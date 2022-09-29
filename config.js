@@ -53,7 +53,7 @@ global.APIKeys = {
  'https://violetics.pw' : 'beta',
  'https://zahirr-web.herokuapp.com' : 'zahirgans',
  'https://zekais-api.herokuapp.com' : 'zekais',
- 'https://zenzapis.xyz' : 'f9fccfcff1'
+ 'https://zenzapis.xyz' : '297f7b4bc662'
 }
 
 /*Lolhuman*/
