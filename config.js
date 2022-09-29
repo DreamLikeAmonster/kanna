@@ -41,7 +41,7 @@ global.APIs = {
 /*Apikey*/
 global.APIKeys = {
  'https://api.neoxr.my.id' : '5VC9rvNx',
- 'https://api.lolhuman.xyz' : '85faf717d0545d14074659ad',
+ 'https://api.lolhuman.xyz' : '7c014a3c4239e9c62afa65f3',
  'https://api.xteam.xyz' : 'NezukoTachibana281207',
  'https://api.zeks.xyz' : 'apivinz',
  'https://hardianto-chan.herokuapp.com' : 'hardianto',
@@ -57,7 +57,7 @@ global.APIKeys = {
 }
 
 /*Lolhuman*/
-global.lolkey = 'ed78c137a46873c5b8e5fe3b'
+global.lolkey = '7c014a3c4239e9c62afa65f3'
 /*Xteam*/
 global.xteamkey = 'NezukoTachibana281207'
 /*Xcoders*/
