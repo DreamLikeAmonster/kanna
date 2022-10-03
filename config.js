@@ -77,13 +77,13 @@ global.xckey = '5XQ3y7u5zg'
 /*Number*/
 global.nomorbot = '6285842505458'
 global.nomorown = '6287889347327'
-global.namebot = 'Vannesa'
+global.namebot = 'Akira Nara'
 global.nameown = '「 Oᴡɴᴇʀ 」'
 
 /*Watermark*/
-global.wm = '                「 Vannesa あ⁩ 」'
+global.wm = '                「 Akira Nara あ⁩ 」'
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ Vannesa'
+global.wm3 = '⫹⫺ Akira Nara'
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}`
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
@@ -447,7 +447,7 @@ global.paypal = ''
 global.gopay = ''
 global.pdana = '087889347327'
 global.povo = ''
-global.pgopay = ''
+global.pgopay = '087889347327'
 global.ppulsa = '087889347327'
 global.ppulsa2 = '085842505458'
 global.psaweria = '-'
