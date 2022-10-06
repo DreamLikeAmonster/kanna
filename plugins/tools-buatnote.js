@@ -19,6 +19,6 @@ let name = await conn.getName(who)
 
 handler.help = ['buatcatatan']
 handler.tags = ['tools']
-handler.command = /^(bu(kacatatan|at(note|ctt))|add(catatan|(note|ctt)))$/i
+handler.command = /^(buat(catatan|(note|ctt))|add(catatan|(note|ctt)))$/i
 
 export default handler
