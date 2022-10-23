@@ -6,9 +6,6 @@ let rndm = ['AF','AX','AL','DZ','AS','AD','AO','AI','AQ','AG','AR','AM','AW','AU
 
 if (!text) throw `Contoh:
 ${usedPrefix + command} ID
-
-List:
-${Array.from(mdm)}
 `
 let f = await fetch(`https://api.worldbank.org/v2/country/${text}?format=json`)
 let xx = await f.json()
