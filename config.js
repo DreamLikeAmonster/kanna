@@ -8,7 +8,7 @@ import moment from 'moment-timezone'
 global.owner = [
   ['6287889347327', '️caesmon', true]
 ]
-global.mods = []
+global.mods = [6287889347327]
 global.prems = []
 global.girlfren = []
 
