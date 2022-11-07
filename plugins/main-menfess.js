@@ -22,22 +22,9 @@ let ssn = `〠 Dᴀʀɪ : ${name}\n⎙ Pᴇsᴀɴ : ${pesan}`
         let imgr = fla.getRandom()
         //Created By AL? Offc
        await conn.sendButton(data.jid, tek, ssn, 'Balas', '.balasmenfess', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://instagram.com/esacsr',
-    mediaType: 2, 
-    description: gcwangsaf,
-    title: "ᴊᴏɪɴ ᴋʟᴏ ᴍᴀᴜ",
-    body: wm,
-    thumbnail: fs.readFileSync('./media/menfess.jpg'),
-    sourceUrl: gcwangsaf
+
    }}}).then(() => {
            await conn.sendButton(m.chat, `Bᴇʀʜᴀsɪʟ Mᴇɴɢɪʀɪᴍ Pᴇsᴀɴ Kᴇ @${jid.replace(/@.+/, '')}`, logs, 'Menu', '.menu', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://instagram.com/esacsr',
-    mediaType: 2, 
-    description: gcwangsaf,
-    title: "ᴊᴏɪɴ ᴋʟᴏ ᴍᴀᴜ",
-    body: wm,
-    thumbnail: fs.readFileSync('./media/menfess.jpg'),
-    sourceUrl: gcwangsaf
    }}})
             conn.menfess[id] = {
                 id,
