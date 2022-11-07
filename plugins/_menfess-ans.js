@@ -14,11 +14,11 @@ export async function before(m) {
 		await conn.sendButton(mf.dari, txt, sblm, 'Balas', '.balasmenfess', 'Owner', '.owner', 'Credit', '.credit', fakes, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: 'https://instagram.com/esacsr',
     mediaType: 2, 
-    description: sgc,
+    description: gcwangsaf,
     title: "ᴊᴏɪɴ ᴋʟᴏ ᴍᴀᴊ",
     body: wm,
     thumbnail: fs.readFileSync('./media/menfess.jpg'),
-    sourceUrl: sgc}}})
+    sourceUrl: gcwangsaf}}})
 		/*await this.sendButton(mf.dari, bottime, txt, `${imgr + 'Menfess'}`, [['BALAS PESAN', '.balasmenfess']], null)*/.then(() => {
 			m.reply('Berhasil Mengirim balasan.')
 			delay(1500)
