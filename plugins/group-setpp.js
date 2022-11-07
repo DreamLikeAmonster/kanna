@@ -19,3 +19,12 @@ handler.group = handler.admin = handler.botAdmin = true
 
 export default handler
 
+async function pepe(media) {
+  const jimp = await jimp_1.read(media)	const min = jimp.getWidth()
+  const max = jimp.getHeight()
+  const cropped = jimp.crop(0, 0, min, max)
+  return {
+   img: await cropped.scaleToFit(720, 720).getBufferAsync(jimp_1.MIME_JPEG),
+   preview: await cropped.normalize().getBufferAsync(jimp_1.MIME_JPEG)
+  }
+}
