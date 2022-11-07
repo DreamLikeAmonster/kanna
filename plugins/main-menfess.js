@@ -24,20 +24,20 @@ let ssn = `〠 Dᴀʀɪ : ${name}\n⎙ Pᴇsᴀɴ : ${pesan}`
        await conn.sendButton(data.jid, tek, ssn, 'Balas', '.balasmenfess', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: 'https://instagram.com/esacsr',
     mediaType: 2, 
-    description: sgc,
+    description: gcwangsaf,
     title: "ᴊᴏɪɴ ᴋʟᴏ ᴍᴀᴜ",
     body: wm,
     thumbnail: fs.readFileSync('./media/menfess.jpg'),
-    sourceUrl: sgc
+    sourceUrl: gcwangsaf
    }}}).then(() => {
            await conn.sendButton(m.chat, `Bᴇʀʜᴀsɪʟ Mᴇɴɢɪʀɪᴍ Pᴇsᴀɴ Kᴇ @${jid.replace(/@.+/, '')}`, logs, 'Menu', '.menu', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: 'https://instagram.com/esacsr',
     mediaType: 2, 
-    description: sgc,
+    description: gcwangsaf,
     title: "ᴊᴏɪɴ ᴋʟᴏ ᴍᴀᴜ",
     body: wm,
     thumbnail: fs.readFileSync('./media/menfess.jpg'),
-    sourceUrl: sgc
+    sourceUrl: gcwangsaf
    }}})
             conn.menfess[id] = {
                 id,
