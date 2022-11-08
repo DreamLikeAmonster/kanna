@@ -12,7 +12,7 @@ let name = await conn.getName(who)
 if (!text) return m.reply(`Example : ${usedPrefix + command} query`)
 try {
 if (command == 'image') {
-let caption = `*Hasil pencarian* ${text}\n\n*Note:* Lolhuman`
+let caption = `*Hasil pencarian* ${text}\n\n*Note:* Akira`
 let url = `https://vanessaa-rest-api.herokuapp.com/api/search/googleimage?text=${text}`
 await conn.sendButton(m.chat, caption, wm, url, [
       ['IMG 1', usedPrefix + 'image1 ' + text],
@@ -61,8 +61,8 @@ await conn.sendButton(m.chat, caption, wm, x.getRandom(), [
     }
     
 if (command == 'image2') {
-let caption = `*Hasil pencarian* ${text}\n\n*Note:* bx-hunter`
-let url = `https://bx-hunter.herokuapp.com/api/googleimage?query=${text}&apikey=W46QBtQGOhiqfiClaxHqyAaIR`
+let caption = `*Hasil pencarian* ${text}\n\n*Note:* Akira`
+let url = `https://vanessaa-rest-api.herokuapp.com/api/search/googleimage?text=${text`
 let js = await fetch(url)
 let jp = await js.json()
 let x = jp.result
@@ -87,7 +87,7 @@ await conn.sendButton(m.chat, caption, wm, x.getRandom(), [
     }
 
 if (command == 'image3') {
-let url = `https://api-xcoders.xyz/api/search/image?query=${text}&apikey=${global.xckey}`
+let url = `https://vanessaa-rest-api.herokuapp.com/api/search/googleimage?text=${text}`
 let js = await fetch(url)
 let jsons = await js.json()
 let caption = `*⎔┉━「 ${jsons.result[0].title} 」━┉⎔*\n`
@@ -113,8 +113,8 @@ let caption = `*⎔┉━「 ${jsons.result[0].title} 」━┉⎔*\n`
     }
 
 if (command == 'image4') {
-let caption = `*Hasil pencarian* ${text}\n*Note:* xcoders`
-let url = `https://api-xcoders.xyz/api/search/image2?query=${text}&apikey=${global.xckey}`
+let caption = `*Hasil pencarian* ${text}\n*Note:* Akira`
+let url = `https://vanessaa-rest-api.herokuapp.com/api/search/googleimage?text=${text}`
 let js = await fetch(url)
 let jp = await js.json()
 await conn.sendButton(m.chat, caption, wm, jp.result[0].url, [
@@ -138,8 +138,8 @@ await conn.sendButton(m.chat, caption, wm, jp.result[0].url, [
     }
 
 if (command == 'image5') {
-let caption = `*Hasil pencarian* ${text}\n\n*Note:* nzcha`
-let url = `https://nzcha-apii.herokuapp.com/googleimage?q=${text}`
+let caption = `*Hasil pencarian* ${text}\n\n*Note:* Akira`
+let url = `https://vanessaa-rest-api.herokuapp.com/api/search/googleimage?text=${text}`
 let js = await fetch(url)
 let jp = await js.json()
 let x = jp.result
