@@ -1,7 +1,7 @@
 let handler = async (m, { conn, text }) => {
     let teks = text ? text : m.quoted && m.quoted.text ? m.quoted.text : m.text
     try {
-    conn.sendFile(m.chat, global.API('xteam', '/attp', { file: '', text: teks }), 'attp.webp', '', fakes, null, { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { externalAdReply :{
+    conn.sendFile(m.chat, global.API('vanessaa', '/attp', { file: '', text: teks }), 'attp.webp', '', fakes, null, { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { externalAdReply :{
     showAdAttribution: true,
     mediaUrl: sfb,
     mediaType: 2,
@@ -13,7 +13,7 @@ let handler = async (m, { conn, text }) => {
      }}
   })
     } catch {
-    conn.sendFile(m.chat, global.API(`https://anabotofc.herokuapp.com/api/maker/attp?apikey=AnaBot&text=${teks}`), 'attp.webp', '', fakes, null, { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { externalAdReply :{
+    conn.sendFile(m.chat, global.API(`https://vanessaa-rest-api.herokuapp.com/api/maker/attp?text=${text}`), 'attp.webp', '', fakes, null, { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { externalAdReply :{
     showAdAttribution: true,
     mediaUrl: sfb,
     mediaType: 2,
