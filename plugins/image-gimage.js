@@ -18,9 +18,6 @@ if (command == 'image') {
 
 Result from *${text}*
 `.trim(), wm, res.getRandom(), [
-      ['IMG 6', usedPrefix + 'image6 ' + text],
-      ['IMG ', usedPrefix + 'image ' + text],
-      ['IMG 1', usedPrefix + 'image1 ' + text]
     ], m, {
             fileLength: fsizedoc,
             seconds: fsizedoc,
