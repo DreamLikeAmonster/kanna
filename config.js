@@ -36,7 +36,7 @@ global.APIs = {
  zekais : 'http://zekais-api.herokuapp.com',
  zeks : 'https://api.zeks.xyz',
  zenz : 'https://zenzapis.xyz'
- akira : 'https://vanessaa-rest-api.herokuapp.com'
+ vanessaa : 'https://vanessaa-rest-api.herokuapp.com'
 }
 
 /*Apikey*/
