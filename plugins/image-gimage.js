@@ -13,7 +13,7 @@ if (!text) return m.reply(`Example : ${usedPrefix + command} query`)
 try {
 if (command == 'image') {
 let caption = `*Hasil pencarian* ${text}\n\n*Note:* Lolhuman`
-let url = `https://api.lolhuman.xyz/api/gimage?apikey=${global.lolkey}&query=${text}`
+let url = `https://vanessaa-rest-api.herokuapp.com/api/search/googleimage?text=${text}`
 await conn.sendButton(m.chat, caption, wm, url, [
       ['IMG 1', usedPrefix + 'image1 ' + text],
       ['IMG 2', usedPrefix + 'image2 ' + text],
@@ -35,8 +35,8 @@ await conn.sendButton(m.chat, caption, wm, url, [
     }
 
 if (command == 'image1') {
-let caption = `*Hasil pencarian* ${text}\n\n*Note:* Lolhuman`
-let url = `https://api.lolhuman.xyz/api/gimage2?apikey=${global.lolkey}&query=${text}`
+let caption = `*Hasil pencarian* ${text}\n\n*Note:* Akira`
+let url = `https://vanessaa-rest-api.herokuapp.com/api/search/googleimage?text=${text}`
 let js = await fetch(url)
 let jp = await js.json()
 let x = jp.result
