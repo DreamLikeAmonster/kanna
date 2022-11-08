@@ -62,7 +62,7 @@ await conn.sendButton(m.chat, caption, wm, x.getRandom(), [
     
 if (command == 'image2') {
 let caption = `*Hasil pencarian* ${text}\n\n*Note:* Akira`
-let url = `https://vanessaa-rest-api.herokuapp.com/api/search/googleimage?text=${text`
+let url = `https://vanessaa-rest-api.herokuapp.com/api/search/googleimage?text=${text}`
 let js = await fetch(url)
 let jp = await js.json()
 let x = jp.result
