@@ -18,6 +18,7 @@ if (command == 'image') {
 
 Result from *${text}*
 `.trim(), wm, res.getRandom(), [
+    ['more', usedPrefix + 'image' + text]
     ], m, {
             fileLength: fsizedoc,
             seconds: fsizedoc,
