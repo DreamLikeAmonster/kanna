@@ -36,6 +36,7 @@ global.APIs = {
  zekais : 'http://zekais-api.herokuapp.com',
  zeks : 'https://api.zeks.xyz',
  zenz : 'https://zenzapis.xyz'
+ akira : 'https://vanessaa-rest-api.herokuapp.com'
 }
 
 /*Apikey*/
@@ -54,6 +55,7 @@ global.APIKeys = {
  'https://zahirr-web.herokuapp.com' : 'zahirgans',
  'https://zekais-api.herokuapp.com' : 'zekais',
  'https://zenzapis.xyz' : '297f7b4bc662'
+ 'https://vanessaa-rest-api.com' : '-'
 }
 
 /*Lolhuman*/
