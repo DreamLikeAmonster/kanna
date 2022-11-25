@@ -17,21 +17,21 @@ import {
   existsSync,
   readFileSync,
   watch
-} from 'fs'
-import yargs from 'yargs'
-import { spawn } from 'child_process'
-import lodash from 'lodash'
-import chalk from 'chalk'
-import syntaxerror from 'syntax-error'
-import { tmpdir } from 'os'
-import { format } from 'util'
-import { makeWASocket, protoType, serialize } from './lib/simple.js'
-import { Low, JSONFile } from 'lowdb'
+} from 'fs';
+import yargs from 'yargs';
+import { spawn } from 'child_process';
+import lodash from 'lodash';
+import chalk from 'chalk';
+import syntaxerror from 'syntax-error';
+import { tmpdir } from 'os';
+import { format } from 'util';
+import { makeWASocket, protoType, serialize } from './lib/simple.js';
+import { Low, JSONFile } from 'lowdb';
 import {
   mongoDB,
   mongoDBV2
-} from './lib/mongoDB.js'
-import store from './lib/store.js'
+} from './lib/mongoDB.js';
+import store from './lib/store.js';
 
 const {
   DisconnectReason
