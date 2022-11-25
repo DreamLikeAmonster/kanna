@@ -1,1 +1,1 @@
-worker: npm i -g lowdb && node 
+worker: npm i -g lowdb && node .
